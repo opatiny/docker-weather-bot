@@ -1,0 +1,3 @@
+[submodule "node-red/weather-bot"]
+	path = node-red/weather-bot
+	url = https://github.com/opatiny/weather-bot
