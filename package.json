@@ -1,0 +1,14 @@
+{
+    "name": "docker-weather-bot",
+    "description": "Dockerization of weather-bot project",
+    "version": "0.0.1",
+    "dependencies": {
+        "node-red-contrib-telegrambot": "~8.1.0"
+    },
+    "node-red": {
+        "settings": {
+            "flowFile": "flow.json",
+            "credentialsFile": "flow_cred.json"
+        }
+    }
+}
