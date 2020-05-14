@@ -4,7 +4,7 @@
     "version": "0.0.1",
     "dependencies": {},
     "scripts": {
-        "start": "docker-compose up --build",
+        "start": "docker-compose up --build -d",
         "stop": "docker-compose down",
         "update": "git submodule update --recursive --remote"
       }
